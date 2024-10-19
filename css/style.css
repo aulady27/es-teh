@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4eded;
+}
+
+/* Header */
+header {
+  background-color: #1c4826;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f0e8e8;
+}
+
+/* Hero */
+#hero {
+  text-align: center;
+  padding: 100px 0;
+  background-image: url('gambar-latar.jpg');
+  background-size: cover;
+  color: #050404;
+  line-height: 1.5;
+}
+
+#hero button {
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+/* Section Umum */
+section {
+  padding: 50px;
+}
+
+/* Testimoni */
+.testimoni-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
